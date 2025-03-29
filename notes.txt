@@ -1,0 +1,33 @@
+important to make a plan of attack and make as much reusable as possible
+
+look at the figma/design and look for the possible similarities
+
+css reset to make browser differences redundant
+
+webkit text size adjust - an old mobile feature that switches up font size if someone is viewing your webist in landscape
+on mobile
+
+text wrap pretty, stops orphan words from paragraphs
+
+you can explicitly declare layers in css, by doing @layer name1, name2, name3...
+
+specificity and inheritance
+
+naming colours, start with a clr(colour) ff- font family fs-font size => then the name, 
+
+avoid using pixels for font sizes, he recommends to use REM instead. This is because em or rem, will map itself to user
+preferences
+
+custom properties are the same as css variables. Kev said, yeah its a lot of work setting these up, but for the bigger picture, its a good thing, so its important to plan it out and implement it in the project
+
+do as much with base styles to avoid writing more css later someone
+
+base styles are the one that set the stage for the rest of the project
+
+he thinks a lot about accessibility, 
+
+links that just say things like "Learn more", are not useful. so what he does is add a visually hidden span in the html for the link, which has text explaining what that link does
+
+there is a bigger focus on accessibility than i thought there would be, it makes sense and is satisfying to do so.
+
+i dont need to rememeber the class for a11y, a common name for the class that we called visually hidden in this is sr-only. easy google to find this again.
