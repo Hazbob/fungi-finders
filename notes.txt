@@ -31,3 +31,12 @@ links that just say things like "Learn more", are not useful. so what he does is
 there is a bigger focus on accessibility than i thought there would be, it makes sense and is satisfying to do so.
 
 i dont need to rememeber the class for a11y, a common name for the class that we called visually hidden in this is sr-only. easy google to find this again.
+
+as much as possible i should be taking a higher level view of the project, really focus on what will be repeatable, and plan that out.
+
+
+wrappers are used for minimising the maxium width the content can reach.
+
+in a project you will have different widths of containers, this is where you would use modifier classes and then use them like class="wrapper wrapper--narrow".
+
+these modifier classes will have a name to show they are linked but will override the max width of the class.
