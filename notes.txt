@@ -40,3 +40,10 @@ wrappers are used for minimising the maxium width the content can reach.
 in a project you will have different widths of containers, this is where you would use modifier classes and then use them like class="wrapper wrapper--narrow".
 
 these modifier classes will have a name to show they are linked but will override the max width of the class.
+
+rem is good when getting scaling issues, but worth checking if getting issues.
+
+kevin says for something simple its okay to sometimes use "box sizing content box" for matching widths with figma designs, to avoid the confusion with padding seeming like 
+containers are narrower than they are on the figma. Sometimes however it is good to use the calc function for that.
+
+the advantage to using something like data attributes for modifier classes, is that you can utilise nesting in css, which can encapsulate some common styles into the same area.
