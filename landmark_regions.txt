@@ -7,3 +7,5 @@ people are able to navigate directly to them to navigate the site quicker
 padding-block only adds padding on the top and the bottom
 
 nesting media queries is a nice pattern, however it may look to bloat the codebase, however hosts are very good at compressing repeated code, and kevin saw in a test that it compresses very well.
+
+it is a very nice pattern to use local custom properties which are essentially variables in a css declaration.

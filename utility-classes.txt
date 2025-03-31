@@ -1,0 +1,11 @@
+these are classes similar to tailwind. reusable baked in css
+
+he mentions that overdoing it with utilities can be a negative thing, especially if not working with component based JS framework.
+
+take time before starting working on the css, to think about all of the cases where you might be able to create reusable utility classes.
+
+one of the things that he identifies as a potential utility, is from the similarity of all of the paragraphs, sometimes the fontsize might change, or the colour.
+
+he looks for the similarities where there are very small differences when deciding to create utilities.
+
+utility classes from what i can tell are a useful way to have re-usable css, in a declarative way, for example: .background-dark would be a class that implements background-color: var(--background-dark)
