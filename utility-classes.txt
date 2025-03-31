@@ -9,3 +9,5 @@ one of the things that he identifies as a potential utility, is from the similar
 he looks for the similarities where there are very small differences when deciding to create utilities.
 
 utility classes from what i can tell are a useful way to have re-usable css, in a declarative way, for example: .background-dark would be a class that implements background-color: var(--background-dark)
+
+we have a case where most of our images have similar border radius, so what we do here is to have a low specificity selector under img, which has the more generic border radius. we can then override this later.
